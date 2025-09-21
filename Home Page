@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lover Boys</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Lover Boys 🙂</h1>
+    
+    <!-- Login / user info form -->
+    <form id="userForm">
+      <input type="text" placeholder="Name" required>
+      <input type="email" placeholder="Email" required>
+      <input type="text" placeholder="Shipping Address" required>
+      <button type="submit">Enter</button>
+    </form>
+
+    <!-- Minesweeper section -->
+    <div id="minesweeper">
+      <h2>Minesweeper</h2>
+      <button id="playGame">Play (placeholder)</button>
+      <p>Score high to win past merch!</p>
+    </div>
+
+    <!-- Shop toggle -->
+    <div id="shop">
+      <h2>Shop (24h drop)</h2>
+      <p id="shopStatus">Shop is currently closed</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
