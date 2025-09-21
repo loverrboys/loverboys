@@ -1,0 +1,20 @@
+// Shop logic: open only for 24h drops
+const shopStatus = document.getElementById("shopStatus");
+const shopOpen = false; // change to true to test open shop
+
+if(shopOpen) {
+  shopStatus.textContent = "Shop is OPEN! Grab your drop!";
+} else {
+  shopStatus.textContent = "Shop is currently closed";
+}
+
+// Placeholder Minesweeper button
+document.getElementById("playGame").addEventListener("click", () => {
+  alert("Minesweeper game placeholder!");
+});
+
+// Form submission
+document.getElementById("userForm").addEventListener("submit", (e) => {
+  e.preventDefault();
+  alert("Thanks for entering! You could win surprises!");
+});
